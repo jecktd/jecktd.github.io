@@ -1,5 +1,5 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
-@import url(../node_modules/fortawesome/fontawesome-free/css/all.css);
+@import url(../assets/all.css);
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
