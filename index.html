@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jack Drabenstadt</title>
     <link rel="stylesheet" href="css/mystyles.css">
-    <link rel="stylesheet" href="./assets/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="custom.js"></script>
   </head>
   <body>
@@ -15,19 +15,19 @@
       <ul>
         <li class="tablinks is-active" id="tablinks" onclick="openTab(event, 'home')">
           <a>
-            <span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span>
+            <span class="icon is-small"><i class="fa fa-home" aria-hidden="true"></i></span>
             <span>Home</span> 
           </a>
         </li>
         <li class="tablinks" id="tablinks" onclick="openTab(event, 'projects')">
           <a>
-            <span class="icon is-small"><i class="fas fa-hammer" aria-hidden="true"></i></span>
+            <span class="icon is-small"><i class="fa fa-pencil" aria-hidden="true"></i></span>
             <span>Projects</span>
           </a>
         </li>
         <li class="tablinks" id="tablinks" onclick="openTab(event, 'about')">
           <a>
-            <span  class="icon is-small"><i class="fas fa-address-card" aria-hidden="true"></i></span> 
+            <span class="icon is-small"><i class="fa fa-address-card" aria-hidden="true"></i></span> 
             <span>About</span>
           </a>
         </li>
@@ -35,23 +35,47 @@
     </div>
 
     <div class="container">
-      <div id="home" class="tabcontent">
+      <div id="home" class="tabcontent my-3">
         <h1 class="title">Jack Drabenstadt</h1> 
         <h2 class="subtitle">
           A poopy poop to poop your poop into <strong>poops</strong>, like the poop you're currently pooping
         </h2>
       </div>
-      <div id="projects" class="tabcontent">
+      <div id="projects" class="tabcontent  my-3">
         <h1 class="title">Projects</h1> 
         <h2 class="subtitle">
           A simple cupcake to divide your page into <strong>crumbs</strong>, like the one you're currently eating
         </h2>
       </div>
-      <div id="about"class="tabcontent">
+      <div id="about"class="tabcontent  my-3">
         <h1 class="title">About</h1> 
         <h2 class="subtitle">
           A simple computer to divide your tasks into <strong>applications</strong>, like the one you're currently completing
         </h2>
+        <div class="tile is-parent "> <! --"fa fa-send" "fa fa-github-alt" --> 
+          <a href="mailto:jack.drabenstadt1@gmail.com"></a><div class="tile is-ancestor">
+            <a>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Email</p>
+                  <p class="content my-3">jack.drabenstadt1@gmail.com</p>
+                </article>
+              </div>
+            </a>
+            <a>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Github</p>
+                </article>
+              </div>
+            </a>
+            <div class="tile is-parent is-link">
+              <article class="tile is-child box">
+                <p class="title">Third column</p>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -1,5 +1,4 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
-@import url(../assets/all.css);
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -12,7 +11,13 @@
 #home {
   display: block;
 }
-
+#github {
+  background-color: #a486cf;
+  color: #EEEEEE;
+}
+#email {
+  background-color: #ff6657;
+}
 .delete, .modal-close, .button, .file, .breadcrumb, .pagination-previous,
 .pagination-next,
 .pagination-link,
