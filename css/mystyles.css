@@ -1,5 +1,4 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
-@import url(../node_modules/fortawesome/fontawesome-free/css/all.css);
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7480,3 +7479,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden; }
+
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%; }
+  .hero-background.is-transparent {
+    opacity: 0.3; }
+
+.tabs:not(:last-child) {
+  margin-bottom: 0rem; }
+
+.tabcontent {
+  display: none; }
+
+#home {
+  display: block; }
