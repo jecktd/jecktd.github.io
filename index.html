@@ -13,69 +13,63 @@
 
     <div id="navigation" class="tabs is-centered">
       <ul>
-        <li class="tablinks is-active" id="tablinks" onclick="openTab(event, 'home')">
+        <li class="tablinks is-active mx-3" id="tablinks" onclick="openTab(event, 'home')">
           <a>
-            <span class="icon is-small"><i class="fa fa-home" aria-hidden="true"></i></span>
+            <span class="icon is-medium"><i class="fa fa-home" aria-hidden="true"></i></span>
             <span>Home</span> 
           </a>
         </li>
-        <li class="tablinks" id="tablinks" onclick="openTab(event, 'projects')">
+        <li class="tablinks mx-3 " id="tablinks" onclick="openTab(event, 'projects')">
           <a>
-            <span class="icon is-small"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+            <span class="icon is-medium"><i class="fa fa-pencil" aria-hidden="true"></i></span>
             <span>Projects</span>
           </a>
         </li>
-        <li class="tablinks" id="tablinks" onclick="openTab(event, 'about')">
+        <li class="tablinks mx-3" id="tablinks" onclick="openTab(event, 'about')">
           <a>
-            <span class="icon is-small"><i class="fa fa-address-card" aria-hidden="true"></i></span> 
+            <span class="icon is-medium"><i class="fa fa-address-card" aria-hidden="true"></i></span> 
             <span>About</span>
           </a>
         </li>
       </ul>
     </div>
-
-    <div class="container">
-      <div id="home" class="tabcontent my-3">
-        <h1 class="title">Jack Drabenstadt</h1> 
-        <h2 class="subtitle">
-          A poopy poop to poop your poop into <strong>poops</strong>, like the poop you're currently pooping
-        </h2>
-      </div>
-      <div id="projects" class="tabcontent  my-3">
-        <h1 class="title">Projects</h1> 
-        <h2 class="subtitle">
-          A simple cupcake to divide your page into <strong>crumbs</strong>, like the one you're currently eating
-        </h2>
-      </div>
-      <div id="about"class="tabcontent  my-3">
-        <h1 class="title">About</h1> 
-        <h2 class="subtitle">
-          A simple computer to divide your tasks into <strong>applications</strong>, like the one you're currently completing
-        </h2>
-        <div class="tile is-parent "> <! --"fa fa-send" "fa fa-github-alt" --> 
-          <a href="mailto:jack.drabenstadt1@gmail.com"></a><div class="tile is-ancestor">
-            <a>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">Email</p>
-                  <p class="content my-3">jack.drabenstadt1@gmail.com</p>
-                </article>
-              </div>
-            </a>
-            <a>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">Github</p>
-                </article>
-              </div>
-            </a>
-            <div class="tile is-parent is-link">
-              <article class="tile is-child box">
-                <p class="title">Third column</p>
-              </article>
+    
+    <div>
+      <div id="home" class="tabcontent">
+        <div class="hero is-fullheight is-light has-background">
+          <img alt="Fill Murray" class="hero-background is-transparent" src="images/jackfall.jpg" />
+          <div class="hero-body">
+            <div class="container my-6">
+              <h1 class="title">
+                Jack Drabenstadt
+              </h1>
+              <h3 class="subtitle">
+                Computer Science Student
+              </h3>
             </div>
           </div>
         </div>
+      </div>
+      <div id="projects" class="tabcontent">
+        <div class='container my-6'>
+          <h1 class="title">Projects</h1> 
+          <h2 class="subtitle">
+            I haven't made anything to put here yet, move along.
+          </h2>
+        </div>
+      </div>
+      <div id="about"class="tabcontent">
+        <div class='container my-6'>
+          <h1 class="title">About</h1>
+          <div class="subtitle">Contact</div>
+          <div class="social-media">
+            <a href="mailto: jack.drabenstadt1@gmail.com" target="_blank" class="button is-light is-large"><i class="fa fa-mail-reply" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/drabenstadtj/" target="_blank" class="button is-light is-large"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/DrabenstadtJack" target="_blank" class="button is-light is-large"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/jecktd" target="_blank" class="button is-light is-large"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </body>
