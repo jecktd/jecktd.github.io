@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "css-build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: css-build",
+			"detail": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css"
+		}
+	]
+}

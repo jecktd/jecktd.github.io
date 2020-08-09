@@ -7501,3 +7501,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 #home {
   display: block; }
+
+.tabs li {
+  display: block; }
+
+.tabs li.is-active a {
+  border-bottom-color: #32dc7f;
+  color: #32dc7f; }
