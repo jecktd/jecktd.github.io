@@ -4560,7 +4560,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #6b4949;
+    color: #4a4a4a;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -4568,7 +4568,7 @@ label.panel-block {
     vertical-align: top; }
     .tabs a:hover {
       border-bottom-color: #363636;
-      color: #2c2c2c; }
+      color: #363636; }
   .tabs li {
     display: block; }
     .tabs li.is-active a {
