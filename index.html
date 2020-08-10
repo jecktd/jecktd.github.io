@@ -13,19 +13,19 @@
 
     <div id="navigation" class="tabs is-centered">
       <ul>
-        <li class="tablinks is-active" id="tablinks" onclick="openTab(event, 'home')">
+        <li class="tablinks is-large is-active " id="tablinks" onclick="openTab(event, 'home')">
           <a>
             <span class="icon is-medium"><i class="fa fa-home" aria-hidden="true"></i></span>
             <span>Home</span> 
           </a>
         </li>
-        <li class="tablinks" id="tablinks" onclick="openTab(event, 'projects')">
+        <li class="tablinks is-large" id="tablinks" onclick="openTab(event, 'projects')">
           <a>
             <span class="icon is-medium"><i class="fa fa-pencil" aria-hidden="true"></i></span>
             <span>Projects</span>
           </a>
         </li>
-        <li class="tablinks" id="tablinks" onclick="openTab(event, 'about')">
+        <li class="tablinks is-large" id="tablinks" onclick="openTab(event, 'about')">
           <a>
             <span class="icon is-medium"><i class="fa fa-address-card" aria-hidden="true"></i></span> 
             <span>About</span>
@@ -39,10 +39,10 @@
           <img alt="Jack Drabenstadt" class="hero-background is-transparent" src="images/jackfall.jpg" />
           <div class="hero-body">
             <div class="container">
-              <h3 class="title">
+              <h3 id="hero-text" class="title">
                 Jack Drabenstadt
               </h3>
-              <h3 class="subtitle">
+              <h3 id="hero-text" class="subtitle">
                 Computer Science Student
               </h3>
             </div>
@@ -56,19 +56,49 @@
             I haven't made anything to put here yet, move along.
           </h2>
         </div>
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              poop
+            </p>
+          </div>
+        </footer>
       </div>
-      <div id="about"class="tabcontent">
-        <div class="container my-6">
-          <h1 class="title">About</h1>
-          <div class="subtitle">Contact</div>
-          <div class="social-media">
-            <a href="mailto: jack.drabenstadt1@gmail.com" target="_blank" class="button is-light is-large" title="jack.drabenstadt1@gmail.com"><i class="fa fa-mail-reply" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/drabenstadtj/" target="_blank" class="button is-light is-large " title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/DrabenstadtJack" target="_blank" class="button is-light is-large " title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://github.com/jecktd" target="_blank" class="button is-light is-large " title="Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <div id="about"class="tabcontent">
+          <div class="container my-6">
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-8">
+                <div class="tile">
+                  <div class="tile is-parent is-vertical">
+                    <article class="tile is-child box has-text-centered">
+                      <div class="title">Contact</div>
+                      <div class="social-media">
+                        <a id="email" href="mailto: jack.drabenstadt1@gmail.com" target="_blank" class="button is-light is-large" title="jack.drabenstadt1@gmail.com"><i class="fa fa-mail-reply" aria-hidden="true"></i></a>
+                        <a id="instagram"  href="https://www.instagram.com/drabenstadtj/" target="_blank" class="button is-light is-large " title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a id="twitter"  href="https://twitter.com/DrabenstadtJack" target="_blank" class="button is-light is-large " title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a id="github"  href="https://github.com/jecktd" target="_blank" class="button is-light is-large " title="Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                      </div>
+                    </article>
+                    <article class="tile is-child box">
+                      <p class="content mx-2">jack.drabenstadt1@gmail.com</p>
+                    </article>
+                  </div>
+                  <div  class="tile is-parent has-text-centered">
+                    <article id="cooljack" class="tile is-child box">
+                    </article>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <div class="title">About</div>
+                  <p class="content mx-2">Jack Drabenstadt is a professional Super Monkey Ball 2 player with over 14 years of experience under his belt.</p>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   </body>

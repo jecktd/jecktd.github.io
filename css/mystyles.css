@@ -7491,7 +7491,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 100%;
   height: 100%; }
   .hero-background.is-transparent {
-    opacity: 0.3; }
+    opacity: 0.5; }
 
 .tabs:not(:last-child) {
   margin-bottom: 0rem; }
@@ -7502,9 +7502,30 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 #home {
   display: block; }
 
+#hero-text {
+  color: #181818; }
+
+#email {
+  background-color: #D44638; }
+
+#instagram {
+  background-color: #c2beab; }
+
+#twitter {
+  background-color: #55ACEE; }
+
+#github {
+  background-color: #6e5494; }
+
+#cooljack {
+  background-image: url("../images/cooljack.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 .tabs li {
   display: block; }
 
 .tabs li.is-active a {
-  border-bottom-color: #32dc7f;
-  color: #32dc7f; }
+  border-bottom-color: #3532dc;
+  color: #3532dc; }
