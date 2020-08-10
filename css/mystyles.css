@@ -7496,8 +7496,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .tabs:not(:last-child) {
   margin-bottom: 0rem; }
 
+.tabs {
+  background-color: #eeeeee; }
+
 .tabcontent {
   display: none; }
+
+body {
+  background-color: #ffffff; }
 
 #home {
   display: block; }
@@ -7516,6 +7522,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 #github {
   background-color: #6e5494; }
+
+#spotify {
+  background-color: #1DB954; }
 
 #cooljack {
   background-image: url(../images/cooljack.jpg);

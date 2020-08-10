@@ -23,11 +23,16 @@ $imgpath: "../images";
 {
 margin-bottom: 0rem; 
 }
+.tabs{
+    background-color: #eeeeee;
+}
 
 .tabcontent {
 display: none;
 }
-
+body{
+    background-color: #ffffff;
+}
 #home {
 display: block;
 }
@@ -45,6 +50,9 @@ display: block;
 }
 #github{
     background-color: #6e5494;
+}
+#spotify{
+    background-color: #1DB954;
 }
 #cooljack{
     background-image: url(#{$imgpath}/cooljack.jpg);
