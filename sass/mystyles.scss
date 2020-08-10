@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
+$imgpath: "../images";
 .hero{
   &.has-background
   {
@@ -46,7 +47,7 @@ display: block;
     background-color: #6e5494;
 }
 #cooljack{
-    background-image: url("../images/cooljack.jpg");
+    background-image: url(#{$imgpath}/cooljack.jpg);
     background-size: cover; background-position: center; background-repeat:no-repeat;
 }
 .tabs li {
